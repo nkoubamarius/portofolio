@@ -44,7 +44,7 @@ const Contact = () => {
           Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
         <a
-          href="mailto:brittany.chiang@gmail.com"
+          href="mailto:nkoubamarius@gmail.com"
           className="border border-primary text-primary font-mono rounded px-7 py-4 transition-colors duration-300 hover:bg-primary/10 inline-block"
         >
           Say Hello

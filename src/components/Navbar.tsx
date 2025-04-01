@@ -7,6 +7,7 @@ import Logo from './Logo';
 const navLinks = [
   { name: 'About', url: '/#about', number: '🙋‍♂️' },
   { name: 'Experience', url: '/#jobs', number: '👨🏻‍💻' },
+  { name: 'My Training', url: '/#training', number: '🧑‍🏫' },
   { name: 'Work', url: '/#projects', number: '💼' },
   { name: 'Contact', url: '/#contact', number: '✉️' },
 ];

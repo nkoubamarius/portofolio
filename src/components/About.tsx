@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const skills = [
   'React',
@@ -46,7 +47,7 @@ const About = () => {
 
   const items = [
     { id: 1, content: <h1 className="text-4xl font-bold text-foreground mt-5 sm:text-4xl md:text-5xl">Marius L.</h1>, delay: 200 },
-    { id: 2, content: <h2 className="text-3xl font-bold text-muted-foreground mt-2 sm:text-3xl md:text-4xl">Soft & Data Engineer.</h2>, delay: 300 },
+    { id: 2, content: <h2 className="text-3xl font-bold text-muted-foreground mt-2 sm:text-3xl md:text-4xl">Soft & Data Engineer | Trainer</h2>, delay: 300 },
   ];
 
   return (
@@ -78,17 +79,13 @@ const About = () => {
           <br /><br />
           I excel at the intersection of technology and teamwork, whether leading data engineering projects, training teams on modern tools, or collaborating with stakeholders to deliver value-driven dashboards. My proactive and curious nature drives me to empower businesses with data-driven decision-making, ensuring they stay ahead in today's competitive landscape.
         </p>
-
-        <p>Here are a few technologies I've been working with recently:</p>
-
-        <ul className="grid grid-cols-2 gap-x-2 gap-y-3 overflow-hidden mt-5">
-          {skills.map((skill) => (
-            <li key={skill} className="relative pl-5 font-mono text-sm">
-              <span className="absolute left-0 text-primary">▹</span>
-              {skill}
-            </li>
-          ))}
-        </ul>
+        <p>I am offering a training on Monitoring and Prometheus for professionals who want to use modern tools for effective and efficient monitoring</p>
+        <Link
+            href="#training"
+            className="border border-primary text-primary font-mono rounded px-7 py-4 transition-colors duration-300 hover:bg-primary/10 inline-block"
+          >
+            Check out my Training!
+        </Link>
       </div>
 
         <div className="relative group">
