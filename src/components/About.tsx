@@ -85,6 +85,12 @@ const About = () => {
             className="border border-primary text-primary font-mono rounded px-7 py-4 transition-colors duration-300 hover:bg-primary/10 inline-block"
           >
             Check out my Training!
+        </Link> &nbsp;
+        <Link
+            href="https://flowcv.com/resume/vt3d073coo"
+            className="border border-primary text-primary font-mono rounded px-7 py-4 transition-colors duration-300 hover:bg-primary/10 inline-block"
+          >
+            My CV
         </Link>
       </div>
 

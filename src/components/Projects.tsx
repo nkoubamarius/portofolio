@@ -8,7 +8,7 @@ const featuredProjects = [
   {
     title: 'SNTL',
     description:
-      'March 2025 : Monitoring with Prometheus and Grafana',
+      'Monitoring with Prometheus and Grafana',
     tech: ['Prometheus','Grafana', 'Linux', 'Virtualization', 'VS Code'],
     links: {
       github: '#',
@@ -19,7 +19,7 @@ const featuredProjects = [
   {
     title: "Ministère de l'Intérieur",
     description:
-      'March 2024 : Monitoring with Prometheus and Grafana',
+      'Monitoring with Prometheus and Grafana',
     tech: ['Prometheus','Grafana', 'Linux', 'Virtualization', 'VS Code'],
     links: {
       github: '#',
